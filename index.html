@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+
+        <h1>Check Current URL</h1>
+        <br>
+        <br>
+
+        
+        <button onclick="url()" class="btn">Get Current URL</button>
+        <br>
+        <br>
+        
+        <div id="u1"></div>
+    
+
+
+    </div>
+
+    <script>
+
+        function url(){
+
+
+            let u1 = document.getElementById("u1").value;
+
+            document.getElementById("u1").innerHTML = ` Current URL: ${window.location.href}`;
+        }
+
+
+    </script>
+</body>
+</html>

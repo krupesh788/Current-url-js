@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.btn{
+
+    padding: 10px 40px;
+    margin: 3px 3px;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 7px;
+}
+#u1{
+
+    width: 40%;
+    font-size: 22px;
+    word-spacing: 2px;
+    line-height: 2px;
+}
